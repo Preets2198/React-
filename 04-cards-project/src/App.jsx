@@ -5,7 +5,7 @@ const App = () => {
 
   const jobOpenings = [
     {
-      brandLogo: "https://pngimg.com/uploads/meta/meta_PNG12.png",
+      brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoYMgmPlxU4Yc6_TJI2BvIPYJlSYzNsG3Pfw&s",
       companyName: "Meta",
       datePosted: "5 days ago",
       post: "Frontend Engineer",
@@ -95,7 +95,7 @@ const App = () => {
       location: "Santa Clara, USA"
     },
     {
-      brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnOVjTWaheo4E99cgYZ6y14tpsgHlm0VN8Hw&s",
+      brandLogo: "https://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo-1.png",
       companyName: "Oracle",
       datePosted: "8 days ago",
       post: "Database Administrator",
@@ -110,9 +110,10 @@ const App = () => {
   return (
     <div className='parent'>
       {jobOpenings.map(function(elem, idx) {
+       
         return <div key={idx}>
-          <Card company={elem.companyName} dataPosted={elem.dataPosted} post={elem.post}
-      tag1={elem.tag1} tag2={elem.tag2} pay={elem.pay} />
+          <Card company={elem.companyName} datePosted={elem.datePosted} post={elem.post}
+      tag1={elem.tag1} tag2={elem.tag2} pay={elem.pay} logo={elem.brandLogo}/>
       </div>
       })}
 

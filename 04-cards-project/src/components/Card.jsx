@@ -1,4 +1,4 @@
-import React from "react"
+ import React from "react"
 import {Bookmark} from 'lucide-react'
 const Card = (props) => {
   return (
@@ -6,7 +6,7 @@ const Card = (props) => {
           <div className="card">
             <div>
        <div className="top">
-        <img src="https://images.seeklogo.com/logo-png/40/2/amazon-icon-logo-png_seeklogo-405254.png"alt=""/>
+        <img src={props.logo} alt="company logo"/>
         <button>Save<Bookmark/><Bookmark size={12} color="#fafafa" strokeWidth={1.25}></Bookmark></button>
         </div>
 <div className="center">
