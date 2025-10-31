@@ -14,6 +14,9 @@ const App = () => {
       pay: "$65/hour",
       location: "Menlo Park, USA"
     },
+
+
+    
     {
       brandLogo: "https://static.vecteezy.com/system/resources/previews/014/018/561/non_2x/amazon-logo-on-transparent-background-free-vector.jpg",
       companyName: "Amazon",
@@ -94,6 +97,7 @@ const App = () => {
       pay: "$120/hour",
       location: "Santa Clara, USA"
     },
+    
     {
       brandLogo: "https://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo-1.png",
       companyName: "Oracle",
@@ -103,7 +107,92 @@ const App = () => {
       tag2: "Mid Level",
       pay: "$70/hour",
       location: "Mumbai, India"
-    }
+    },
+
+    {
+    brandLogo: "https://crystalpng.com/wp-content/uploads/2025/05/ibm-logo.png",
+    companyName: "IBM",
+    datePosted: "4 days ago",
+    post: "DevOps Engineer",
+    tag1: "Contract",
+    tag2: "Hybrid",
+    pay: "$70/hour",
+    location: "New York, USA"
+  },
+
+  {
+    brandLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Adobe_Corporate_wordmark.svg/2560px-Adobe_Corporate_wordmark.svg.png",
+    companyName: "Adobe",
+    datePosted: "3 weeks ago",
+    post: "Cloud Engineer",
+    tag1: "Full Time",
+    tag2: "Remote",
+    pay: "$78/hour",
+    location: "San Jose, USA"
+  },
+
+  {
+    brandLogo: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    companyName: "Spotify",
+    datePosted: "2 days ago",
+    post: "UI/UX Designer",
+    tag1: "Full Time",
+    tag2: "Hybrid",
+    pay: "$65/hour",
+    location: "Stockholm, Sweden"
+  },
+
+  {
+    brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeUEoJ1FTFpT3UFKOXghD5jSd1NzzdnvrkUw&s",
+    companyName: "Intel",
+    datePosted: "2 weeks ago",
+    post: "Embedded Systems Engineer",
+    tag1: "Full Time",
+    tag2: "Onsite",
+    pay: "$82/hour",
+    location: "Santa Clara, USA"
+  },
+  {
+    brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhATfvpW1_bf_pWSOVQaz8EsfM4EPF3kDgpw&s",
+    companyName: "Salesforce",
+    datePosted: "1 week ago",
+    post: "Cloud Solutions Architect",
+    tag1: "Full Time",
+    tag2: "Senior Level",
+    pay: "$105/hour",
+    location: "San Francisco, USA"
+  },
+  {
+    brandLogo: "https://images.seeklogo.com/logo-png/32/1/atlassian-logo-png_seeklogo-326273.png",
+    companyName: "Atlassian",
+    datePosted: "3 days ago",
+    post: "React Developer",
+    tag1: "Full Time",
+    tag2: "Remote",
+    pay: "$77/hour",
+    location: "Sydney, Australia"
+  },
+  {
+    brandLogo: "https://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo-1.png",
+    companyName: "Oracle",
+    datePosted: "2 weeks ago",
+    post: "Database Administrator",
+    tag1: "Full Time",
+    tag2: "Mid Level",
+    pay: "$84/hour",
+    location: "Austin, USA"
+  },
+  {
+    brandLogo: "https://i.pinimg.com/1200x/7c/e7/97/7ce797e044a880eb6d74bdec009343bf.jpg",
+    companyName: "PayPal",
+    datePosted: "5 days ago",
+    post: "Full Stack Developer",
+    tag1: "Full Time",
+    tag2: "Hybrid",
+    pay: "$92/hour",
+    location: "San Jose, USA"
+  },
+
   ];
 
  
