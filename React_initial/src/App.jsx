@@ -37,9 +37,9 @@
 function App() {
 
   return (
-    <div>
-      <h1>Hello Preeti</h1>
-      <h2>Hello Preeti</h2>
+    <div id ='parent'>
+      <h1 id ='child1'>Hello Preeti</h1>
+      <h2 id='child2'>Hello Preeti</h2>
     </div>
   )
 }
