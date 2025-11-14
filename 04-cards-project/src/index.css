@@ -88,6 +88,15 @@ body {
   gap: 8px;
 }
 
+.tag {
+  display: inline-block;
+  background-color: #e4e4e4;
+  color: #202020;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
 .tag-item {
   background-color: #eaeaea;
   padding: 4px 10px;
@@ -124,6 +133,15 @@ body {
   border-radius: 6px;
   font-size: 12px;
   cursor: pointer;
+}
+
+.applied-btn {
+  background-color: gray;
+  color: white;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
 }
 
 .apply-btn:hover {
